@@ -1,6 +1,7 @@
 
 #### The game has 3D graphics, realistic physics engine and an AI.
 #### You can built your own course and play in single, multi player mode and AI.
+#####$ both the AI and physics engine are proprietary and were built from ground up 
 
 ##### Some videos to first see what does it look like: 
 - Course creator (no lag ):  https://vid.me/tpDE
@@ -29,8 +30,3 @@ There are quite a few fixes left to be made, but as I have other projects I can'
 - when ball is too fast is should not fall into the hole
 - the issues with extremely laggy course creator (probably some links in gradle)
 - the folder structure is really messy as gradle has issues with files packaging
-
-
-
-This game was made as a university project at Maastricht University, Department of Data Science and Knowledge Engineering.
-You can freely use it for reference except for the projects at the mentioned university.
