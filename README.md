@@ -1,6 +1,5 @@
-
-#### The game has 3D graphics, realistic physics engine and an AI.
-#### You can built your own course and play in single, multi player mode and AI. Both the AI and physics engine are proprietary and were built from ground up 
+## Mini Golf
+##### The game has 3D graphics, realistic physics engine and an AI. You can built your own course and play in single, multi player mode and AI. Both the AI and physics engine are proprietary and were built from ground up 
 
 ##### Some videos to first see what does it look like: 
 - Course creator (no lag ):  https://vid.me/tpDE
