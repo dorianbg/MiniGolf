@@ -1,21 +1,36 @@
-This game was made as a university project.
 
-The game was suppposed to have 3D graphics, realistic physics engine and an AI.
+#### The game has 3D graphics, realistic physics engine and an AI.
+#### You can built your own course and play in single, multi player mode and AI.
 
-The framework we used was libgdx.
+##### Some videos to first see what does it look like: 
+- Course creator (no lag ):  https://vid.me/tpDE
+- Single player mode: https://vid.me/n0p5
+- Multi player mode: https://vid.me/hlQO
+- Against medium AI : https://vid.me/MTcy
+- Against hard AI: https://vid.me/euYz
 
-This is a goood example of a intermediate level libgdx project.
 
-You can freely use it for reference
-except for the projects at the given university.
 
-To use (with intellij idea):
-- download the project as zip file and unzip
-- open with intellij idea as a new project
-- use gradle to import the configuration
-- then you will probably have to link the apache_math library in project structure 
-- change java configuration/link junit again
-- the game should run then
+#### You can find the jar file in root directory as: MiniGolf.jar
 
-The data of course is saved in 
-  - /lib/course.txt
+- please note: 
+I have experienced some issue when running the game as a jar file and course creation, 
+specifically adding a golf ball and a hole is extremely laggy - the problem is not in source code, but somewhere in gradle build... 
+
+
+
+To use the project (Intellij Idea):
+- libgdx only uses gradle so even though I had some issues with deploying it, 
+ you should be able to just import it as a gradle project
+
+
+
+There are quite a few fixes left to be made, but as I have other projects I can't get the time:
+- when ball is too fast is should not fall into the hole
+- the issues with extremely laggy course creator (probably some links in gradle)
+- the folder structure is really messy as gradle has issues with files packaging
+
+
+
+This game was made as a university project at Maastricht University, Department of Data Science and Knowledge Engineering.
+You can freely use it for reference except for the projects at the mentioned university.
